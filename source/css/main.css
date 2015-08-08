@@ -1,5 +1,3 @@
-@import 'bootstrap-sass';
-
 html,
 button,
 input,
@@ -85,11 +83,88 @@ textarea {
 
 
 
+/* ==========================================================================
+   SECTION: Navbar START
+   ========================================================================== */
+
+
+.navlogo {
+    width: 300px;
+    height: auto;
+}
+
+.nav-custom {
+    margin-top: 18px;
+    margin-right: 15px;
+    font-size: 1.3em;
+    font-family: Raleway, Helvetica, Open-Sans, Sans-Serif;
+    font-weight: 100;
+    color: #717477;
+}
+
+a {
+    border: 2px dashed blue;
+}
+
+
+
+/* ==========================================================================
+   SECTION: Navbar END
+   ========================================================================== */
+
+
+/* ==========================================================================
+   SECTION: Banner START
+   ========================================================================== */
+
+section.banner {
+    background:url(http://i.imgur.com/EsctHJs.png) no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    color: black;
+}
+
+.top-margin {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1.heading {
+    margin-top: 30%;
+    margin-left: 5%;
+    font-size: 5em;
+    text-align: left;
+    color: white;
+    font-family: Raleway, Helvetica, Open-Sans, Sans-Serif;
+    font-weight: 600;
+}
 
 
 
 
 
+
+/* ==========================================================================
+   SECTION: Banner END
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   SECTION: S1 START
+   ========================================================================== */
+
+section.s1 {
+    height: 700px;
+}
+
+/* ==========================================================================
+   SECTION: S1 END
+   ========================================================================== */
 
 
 
