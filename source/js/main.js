@@ -53,5 +53,9 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+	$("#hamburger-menu").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+   });
 });
 

@@ -86,7 +86,7 @@ textarea {
    SECTION: MOBILE Navbar START
    ========================================================================== */
 
-.hamburger-menu {
+#hamburger-menu {
     position: relative;
     right: 15px;
     margin-top: 18px;
