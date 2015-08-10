@@ -91,6 +91,7 @@ textarea {
 .navlogo {
     width: 300px;
     height: auto;
+    padding: 10px 0 10px 0;
 }
 
 .nav-custom {
@@ -107,8 +108,21 @@ a {
 }
 
 
+header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
 
+.nav-up {
+    top: -100px;
+}
 
+.navback {
+    background:rgba(255,255,255,.75);
+}
 
 
 
