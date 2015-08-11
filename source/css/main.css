@@ -246,6 +246,15 @@ h1.heading {
     /*background:rgba(243,200,89,.5);*/
     padding: 20px 0 10px 0;
 }
+
+
+@media(max-width: 750px) {
+    h1.heading {
+        font-size: 3em;
+        margin-top: 90%;
+    }
+}
+
 /*035192*/
 /*2F7DBD*/
 /*346E9E*/
