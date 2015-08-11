@@ -370,7 +370,7 @@ ul#horizontal-list li {
     font-size: 1.2em;
     padding: 5px 15px;
     /*border: 1px dashed blue;*/
-    color: white;
+    color: rgba(243,200,89,1);
 }
 
 ul#horizontal-list li a {
@@ -379,7 +379,7 @@ ul#horizontal-list li a {
 
 ul#horizontal-list li:hover {
     cursor: pointer;
-    color: rgba(243,200,89,1);
+    color: white;
 }
 
 @media(max-width: 750px) {
@@ -422,7 +422,7 @@ div#bottom {
     display: block;
     text-align: center;
     margin: 50px auto 50px auto;
-    color: rgba(243,200,89,1);
+    color: white;
     font-size: 0.9em;
 }
 
@@ -432,11 +432,11 @@ div#bottom {
 
 .address a {
     text-decoration: none;
-    color: rgba(243,200,89,1);;
+    color: white;
 }
 
 .address a:hover {
-    color: white;
+    color: rgba(243,200,89,1);
 }
 
 /* ==========================================================================
