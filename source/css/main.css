@@ -349,8 +349,8 @@ section.s1 {
 
 
 footer {
-    height: 350px;
-    background-color: #6095C1;
+    height: 500px;
+    background-color: #636363;
     font-family: Europa, Raleway, Helvetica, sans-serif, open-sans;
     font-weight: 100;
 }
@@ -373,17 +373,19 @@ ul#horizontal-list li {
     color: white;
 }
 
+ul#horizontal-list li a {
+    font-weight: 100;
+}
+
 ul#horizontal-list li:hover {
     cursor: pointer;
-    color: #F3C859;
+    color: rgba(243,200,89,1);
 }
 
 @media(max-width: 750px) {
     .ftable {
         display: block;  
     }
-
-
 
     ul#horizontal-list li {
         display: block;
@@ -399,6 +401,42 @@ div#bottom {
     height: 100px;
     background-color: red;
     z-index: 100;
+}
+
+.visitus {
+    height: 200px;
+    background-color: #9C9D58;
+}
+
+.visitus h1 {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 40px 0 0 100px;
+    font-size: 5em;
+    font-weight: 100;
+    color: white;
+}
+
+.address {
+    display: block;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    color: rgba(243,200,89,1);
+    font-size: 0.9em;
+}
+
+.address {
+    letter-spacing: 0.2em;
+}
+
+.address a {
+    text-decoration: none;
+    color: rgba(243,200,89,1);;
+}
+
+.address a:hover {
+    color: white;
 }
 
 /* ==========================================================================
