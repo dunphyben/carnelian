@@ -89,7 +89,7 @@ textarea {
 .hamburger-menu {
     position: relative;
     margin-right: 5px;
-    margin-top: 18px;
+    margin-top: 15px;
 }
 
 .hamburg-line {
@@ -115,7 +115,12 @@ textarea {
     font-size: 1.8em;
     margin-left: 30px;
     margin-right: 20px;
-    color: black;
+    color: #4D4D4D;
+}
+
+.menux:hover {
+    text-decoration: none;
+    color: rgba(243,200,89,1);
 }
 
 
@@ -133,7 +138,7 @@ textarea {
 .navlogo {
     width: 300px;
     height: auto;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 10px 20px;
 }
 
 
@@ -171,7 +176,7 @@ header {
 }
 
 .navback {
-    background:rgba(255,255,255,.85);
+    background:rgba(255,255,255,1);
     display: block;
 }
 

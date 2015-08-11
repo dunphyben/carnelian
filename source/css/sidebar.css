@@ -93,6 +93,7 @@
     font-size: 20px;
     line-height: 60px;
     text-align: right;
+    border-bottom: 1px solid #6787A2;
 }
 
 .sidebar-nav > .sidebar-brand a {
