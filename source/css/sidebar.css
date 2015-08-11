@@ -6,6 +6,15 @@
 
 /* Toggle Styles */
 
+@media(min-width: 1010px) {
+    #sidebar-wrapper {
+        display: none;
+    }
+    .sidebar-nav {
+        display: none;
+    }
+}
+
 #wrapper {
     padding-right: 0;
     -webkit-transition: all 0.7s ease;
@@ -108,13 +117,13 @@
     background: none;
 }
 
-@media(min-width:768px) {
+@media(min-width:1010px) {
     #wrapper {
-        padding-right: 250px;
+        padding-right: 0;
     }
 
     #wrapper.toggled {
-        padding-right: 0;
+        padding-right: 250px;
     }
 
     #sidebar-wrapper {

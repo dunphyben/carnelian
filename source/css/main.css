@@ -94,7 +94,17 @@ textarea {
 
 .hamburger-menu:hover {
     cursor: pointer;
+    color: rgba(243,200,89,1);
 }
+
+.hamburger-menu:hover > .hamburg-line {
+    background-color: rgba(243,200,89,1);
+}
+
+.hamburger-menu:hover > .menux {
+    color: rgba(243,200,89,1);
+}
+
 
 .hamburg-line {
     width: 42px;
@@ -103,6 +113,13 @@ textarea {
     margin-bottom: 3px;
     margin-top: 3px;
     background-color: black;
+}
+
+
+@media(min-width: 1010px) {
+    .hamburger-menu {
+        display: none;
+    }
 }
 
 
@@ -186,6 +203,48 @@ header {
     display: block;
 }
 
+.navtable {
+    display: none;
+}
+
+@media(min-width: 1010px) {
+    .navtable {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+    }
+
+    ul#desktop-nav {
+        list-style: none;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+
+    ul#desktop-nav li {
+        display: inline-block;
+        font-size: 1em;
+        padding: 5px 15px;
+        /*border: 1px dashed blue;*/
+        color: #717477;
+    }
+
+    ul#desktop-nav li:hover {
+        cursor: pointer;
+        color: #F3C859;
+    }
+    ul#desktop-nav li a {
+        text-decoration: none;
+        color: #717477;
+    }
+    ul#desktop-nav li a:hover {
+        text-decoration: none;
+        color: rgba(243,200,89,1);
+    }
+
+    
+}
+
+
+
 
 
 /* ==========================================================================
@@ -214,7 +273,7 @@ header {
 
 
 section.banner {
-    background:url(/img/smile2-min.jpg) no-repeat center ;
+    background:url(/img/smile2-min.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -308,7 +367,7 @@ ul#horizontal-list {
 
 ul#horizontal-list li {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 5px 15px;
     /*border: 1px dashed blue;*/
     color: white;
