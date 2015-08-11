@@ -278,7 +278,7 @@ section.banner {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     min-height: 700px;
     color: black;
 }
