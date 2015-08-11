@@ -86,9 +86,9 @@ textarea {
    SECTION: MOBILE Navbar START
    ========================================================================== */
 
-#hamburger-menu {
+.hamburger-menu {
     position: relative;
-    right: 15px;
+    margin-right: 5px;
     margin-top: 18px;
 }
 
@@ -101,9 +101,23 @@ textarea {
     background-color: black;
 }
 
+.nav-menu {
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+}
+
 .menu-txt {
     font-size: .9em;
 }
+
+.menux {
+    font-size: 1.8em;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: black;
+}
+
 
 
 /* ==========================================================================
@@ -139,9 +153,9 @@ textarea {
     color: #717477;
 }
 
-a {
+/*a {
     border: 2px dashed blue;
-}
+}*/
 
 
 header {
@@ -171,6 +185,22 @@ header {
 /* ==========================================================================
    SECTION: Banner START
    ========================================================================== */
+
+/*.container-fluid {
+  border: 2px dashed blue;
+}*/
+
+
+/*fixes spacing issue on mobile*/
+@media(max-width: 750px) {
+    .container-fluid {
+        padding-left: 0;
+    }
+    .navlogo {
+        padding-left: 15px;
+    }
+}
+
 
 section.banner {
     background:url(/img/smile2-min.jpg) no-repeat center ;
