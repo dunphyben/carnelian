@@ -58,6 +58,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: Europa, Raleway, Helvetica, sans-serif, open sans;
+    font-weight: 100;
 }
 
 .sidebar-nav li {
@@ -72,7 +74,8 @@
     padding: 7px 30px 7px 0;
     text-align: right;
     border-bottom: 1px solid #6787A2;
-    font-size: 1.4em;
+    font-family: Europa, Raleway, Helvetica, sans-serif, open sans;
+    font-size: 1.2em;
 }
 
 
