@@ -310,6 +310,14 @@ h1.heading {
 
 }
 
+@media(min-width: 1500px) {
+    h1.heading {
+        font-size: 6em;
+        margin-top: 400px;
+        max-width: 900px;
+    }
+}
+
 
 @media(max-width: 940px) {
     h1.heading {
@@ -351,6 +359,13 @@ h1.heading {
         font-size: 3.6em;
         margin-top: 10%;
     }
+    .promised {
+        font-size: 1.3em;
+    }
+    .indexhead {
+        font-size: 1.2em;
+    }
+
     /*iPhone 5 landscape*/
     @media screen and (orientation: landscape) {
         h1.heading {
