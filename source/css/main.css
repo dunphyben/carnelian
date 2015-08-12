@@ -90,6 +90,7 @@ textarea {
     position: relative;
     margin-right: 5px;
     margin-top: 15px;
+    font-family: 'Josefin Sans';
 }
 
 .hamburger-menu:hover {
@@ -116,7 +117,7 @@ textarea {
 }
 
 
-@media(min-width: 1010px) {
+@media(min-width: 940px) {
     .hamburger-menu {
         display: none;
     }
@@ -161,25 +162,17 @@ textarea {
 .navlogo {
     width: 300px;
     height: auto;
-    padding: 10px 0 10px 20px;
+    padding: 15px 0 10px 20px;
 }
 
 
-@media(max-width: 750px) {
+@media(max-width: 940px) {
     .navlogo {
         width: 200px;
         height: auto;
     }
 }
 
-.nav-custom {
-    margin-top: 18px;
-    margin-right: 15px;
-    font-size: 1.2em;
-    font-family: Raleway, Helvetica, Open-Sans, Sans-Serif;
-    font-weight: 100;
-    color: #717477;
-}
 
 /*a {
     border: 2px dashed blue;
@@ -207,24 +200,23 @@ header {
     display: none;
 }
 
-@media(min-width: 1010px) {
+@media(min-width: 940px) {
     .navtable {
         display: table;   /* Allow the centering to work */
-        margin: 0 auto;
+        margin: 0 auto -5px auto;
     }
 
     ul#desktop-nav {
         list-style: none;
-        padding-top: 20px;
+        padding-top: 15px;
         text-decoration: none;
     }
 
     ul#desktop-nav li {
         display: inline-block;
-        font-size: 1em;
-        padding: 5px 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 0.85px;
         /*border: 1px dashed blue;*/
-        color: #717477;
     }
 
     ul#desktop-nav li:hover {
@@ -232,8 +224,11 @@ header {
         color: #F3C859;
     }
     ul#desktop-nav li a {
+        display: inline-block;
         text-decoration: none;
         color: #717477;
+        padding: 12px 10px 0 10px;
+        font-size: 1.5em;
     }
     ul#desktop-nav li a:hover {
         text-decoration: none;
@@ -283,6 +278,12 @@ section.banner {
     color: black;
 }
 
+@media(max-width: 940px) {
+    section.banner {
+        min-height: 100%;
+    }
+}
+
 .top-margin {
     margin-top: 100px;
     text-align: center;
@@ -304,19 +305,69 @@ h1.heading {
     font-weight: 700;
     /*background:rgba(243,200,89,.5);*/
     padding: 20px 0 10px 0;
+    text-shadow: -0.3px 0 black, 0 0.3px black, 0.3px 0 black, 0 -0.3px black;
+    max-width: 750px;
+
 }
 
 
-@media(max-width: 750px) {
+@media(max-width: 940px) {
     h1.heading {
-        font-size: 3em;
-        margin-top: 90%;
+        font-size: 4.5em;
+        margin-top: 50%;
     }
 }
 
-/*035192*/
-/*2F7DBD*/
-/*346E9E*/
+/* iPhone 6, 6+ */
+
+@media(max-width: 740px) {
+    h1.heading {
+        font-size: 4em;
+        margin-top: 60%;
+    }
+    /*iPhone 6, 6+ landscape*/
+    @media screen and (orientation: landscape) {
+        h1.heading {
+            margin-top: 0;
+        }
+    }
+}
+
+/*iPhone 5 landscape*/
+@media(max-width: 570px) {
+    h1.heading {
+    }
+    @media screen and (orientation: landscape) {
+        h1.heading {
+            margin-top: 0;
+            font-size: 3.4em;
+        }
+    }
+}
+/*iPhone 6*/
+
+@media(max-width: 450px) {
+    h1.heading {
+        font-size: 3.6em;
+        margin-top: 10%;
+    }
+    /*iPhone 5 landscape*/
+    @media screen and (orientation: landscape) {
+        h1.heading {
+            margin-top: 0;
+            font-size: 2em;
+        }
+    }
+}
+
+@media(max-width: 370px) {
+    h1.heading {
+        font-size: 3em;
+        margin-top: -20px;
+    }
+}
+
+
 
 
 
@@ -351,7 +402,7 @@ section.s1 {
 footer {
     height: 500px;
     background-color: #636363;
-    font-family: Europa, Raleway, Helvetica, sans-serif, open-sans;
+    font-family: 'Josefin Sans', Raleway, Helvetica, sans-serif, open-sans;
     font-weight: 100;
 }
 
@@ -363,18 +414,20 @@ footer {
 ul#horizontal-list {
     list-style: none;
     padding-top: 20px;
+    font-family: 'Josefin Sans', Raleway, Helvetica, Sans-serif;
+
 }
 
 ul#horizontal-list li {
     display: inline-block;
-    font-size: 1.2em;
-    padding: 5px 15px;
+    font-size: 1.3em;
+    padding: 15px;
     /*border: 1px dashed blue;*/
     color: rgba(243,200,89,1);
 }
 
 ul#horizontal-list li a {
-    font-weight: 100;
+    font-family: 'Josefin Sans', Raleway, Helvetica, Sans-serif;
 }
 
 ul#horizontal-list li:hover {
@@ -421,18 +474,19 @@ div#bottom {
 .address {
     display: block;
     text-align: center;
-    margin: 50px auto 50px auto;
+    margin: 50px auto;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.2em;
+    font-family: 'Josefin Sans', Raleway, Helvetica, Sans-serif;
+    letter-spacing: 1.5px
 }
 
-.address {
-    letter-spacing: 0.2em;
-}
+
 
 .address a {
     text-decoration: none;
     color: white;
+    font-family: 'Josefin Sans', Raleway, Helvetica, Sans-serif;
 }
 
 .address a:hover {
