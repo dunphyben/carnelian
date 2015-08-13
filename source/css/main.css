@@ -258,9 +258,6 @@ header {
 
 /*fixes spacing issue on mobile*/
 @media(max-width: 750px) {
-    .container-fluid {
-        padding-left: 0;
-    }
     .navlogo {
         padding-left: 15px;
     }
@@ -401,7 +398,58 @@ h1.heading {
 
 section.s1 {
     height: 700px;
+    font-family: Helvetica, sans-serif;
+
 }
+
+section.s1 p {
+    font-size: 1.5em;
+}
+
+section.s1 h2 {
+    font-size: 4em;
+    font-weight: 500;
+    color: #91B6C9;
+    margin-left: 10%;
+}
+section.s1 h3 {
+    font-size: 2em;
+}
+
+
+.firstheadline {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.quality {
+    font-size: 0.83em;
+    color: #89A3BC;
+}
+.firstp {
+    background-color: blue;
+
+}
+
+.col-md-6 {
+    border: 1px dashed red;
+}
+
+.col-sm-6 {
+    border: 1px dashed red;
+}
+
+.col-sm-4 {
+    border: 1px dashed red;
+}
+.col-sm-8 {
+    border: 1px dashed red;
+}
+.col-md-4 {
+    border: 1px dashed red;
+}
+
 
 /* ==========================================================================
    SECTION: S1 END
