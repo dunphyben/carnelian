@@ -481,7 +481,6 @@ section.s1 h2 {
     font-size: 1.1em;
     font-weight: 100;
     max-width: 70%;
-    text-align: center;
     margin: 0 auto;
     color: #6E6E6E;
     text-align: left;
@@ -494,7 +493,37 @@ section.s1 h2 {
     font-size: 3em;
 }
 
+.secondp {
+    font-size: 1.1em;
+    font-weight: 100;
+    max-width: 60%;
+    text-align: right;
+    margin: 0 20% 0 30%;
+    color: #6E6E6E;
+}
 
+.secondp > h3 {
+    color: black;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: right;
+}
+
+.thirdp {
+    font-size: 1.1em;
+    font-weight: 100;
+    max-width: 60%;
+    text-align: left;
+    margin: 0 30% 0 10%;
+    color: #6E6E6E;
+}
+
+.thirdp > h3 {
+    color: black;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: left;
+}
 
 .col-md-6 {
     border: 1px dashed red;
