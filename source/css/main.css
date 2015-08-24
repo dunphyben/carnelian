@@ -436,9 +436,7 @@ section.s1 h2 {
     font-family: 'Josefin Sans';
     text-align: center;
 }
-section.s1 h3 {
-    font-size: 2em;
-}
+
 
 .gallery {
     width: 100%;
@@ -486,11 +484,14 @@ section.s1 h3 {
     text-align: center;
     margin: 0 auto;
     color: #6E6E6E;
+    text-align: left;
 
 }
 
 .firstp > h3 {
     color: black;
+    font-weight: 100;
+    font-size: 3em;
 }
 
 
