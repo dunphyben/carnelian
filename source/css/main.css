@@ -276,6 +276,27 @@ section.banner {
     color: black;
 }
 
+section.promisebanner {
+    background:url(/img/bench-min.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    color: black;
+}
+section.aboutbanner {
+    background:url(/img/help-min.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    color: black;
+}
+
 @media(max-width: 940px) {
     section.banner {
         min-height: 100%;
