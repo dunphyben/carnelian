@@ -500,6 +500,7 @@ section.s1 h2 {
     text-align: left;
     color: #6E6E6E;
     margin-right: 100px;
+    display: block;
 }
 
 .secondp > .row > .col-md-7 > h3 {
@@ -631,16 +632,23 @@ div#bottom {
 }
 
 .visitus {
-    height: 200px;
+    height: 100%;
     background-color: #9C9D58;
+    padding: 30px 0;
 }
 
 .visitus h1 {
-    position: relative;
     display: block;
-    float: left;
     margin: 40px 0 0 100px;
     font-size: 5em;
+    font-weight: 100;
+    color: white;
+}
+
+.visitus p {
+    display: block;
+    margin: 40px 0 0 400px;
+    font-size: 2em;
     font-weight: 100;
     color: white;
 }
