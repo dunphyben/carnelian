@@ -9,7 +9,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #F4F4F4;
+    background-color: #F9F9F9;
 }
 
 /*
@@ -494,15 +494,26 @@ section.s1 h2 {
 }
 
 .secondp {
+    margin-top: 100px;
     font-size: 1.1em;
     font-weight: 100;
-    max-width: 60%;
-    text-align: right;
-    margin: 0 20% 0 30%;
+    text-align: left;
     color: #6E6E6E;
+    margin-right: 100px;
 }
 
-.secondp > h3 {
+.secondp > .row > .col-md-7 > h3 {
+    text-align: right;
+    margin-right: 70px;
+    color: black;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+
+
+
+.st-headline {
     color: black;
     font-weight: 100;
     font-size: 3em;
@@ -510,20 +521,22 @@ section.s1 h2 {
 }
 
 .thirdp {
+    margin-top: 70px;
+    margin-left: 70px;
     font-size: 1.1em;
     font-weight: 100;
-    max-width: 60%;
     text-align: left;
-    margin: 0 30% 0 10%;
     color: #6E6E6E;
+    margin-right: 100px;
 }
 
-.thirdp > h3 {
+.thirdp > .row > .col-md-7 > h3 {
+    text-align: left;
     color: black;
     font-weight: 100;
     font-size: 3em;
-    text-align: left;
 }
+
 
 .col-md-6 {
     border: 1px dashed red;
