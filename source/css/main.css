@@ -221,14 +221,11 @@ header {
         /*border: 1px dashed blue;*/
     }
 
-    ul#desktop-nav li:hover {
-        cursor: pointer;
-        color: #F3C859;
-    }
+   
     ul#desktop-nav li a {
         display: inline-block;
         text-decoration: none;
-        color: #717477;
+        color: #00386F;
         padding: 12px 10px 0 10px;
         font-size: 1.5em;
     }
@@ -538,6 +535,10 @@ section.s1 h2 {
     font-size: 3em;
 }
 
+#dance {
+    margin: 160px 0 0 100px;
+}
+
 
 .col-md-6 {
     border: 1px dashed red;
@@ -576,26 +577,32 @@ section.s1 h2 {
 
 footer {
     height: 100%;
-    background-color: #636363;
+    background-color: #464646;
     font-family: 'Josefin Sans', Raleway, Helvetica, sans-serif, open-sans;
     font-weight: 100;
 }
 
 .ftable {
     display: table;   /* Allow the centering to work */
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
+}
+
+.ftable p#copyright {
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: gray;
 }
 
 ul#horizontal-list {
     list-style: none;
     padding-top: 20px;
     font-family: 'Josefin Sans', Raleway, Helvetica, Sans-serif;
-
 }
 
 ul#horizontal-list li {
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 15px;
     /*border: 1px dashed blue;*/
     color: rgba(243,200,89,1);
@@ -603,9 +610,11 @@ ul#horizontal-list li {
 
 ul#horizontal-list li a {
     font-family: 'Josefin Sans', Raleway, Helvetica, Sans-serif;
+    text-decoration: none;
+    color: #F3C859;
 }
 
-ul#horizontal-list li:hover {
+ul#horizontal-list li a:hover {
     cursor: pointer;
     color: white;
 }
@@ -633,13 +642,13 @@ div#bottom {
 
 .visitus {
     height: 100%;
-    background-color: #9C9D58;
+    background-color: #F3C859;
     padding: 30px 0;
+    text-align: center;
 }
 
 .visitus h1 {
     display: block;
-    margin: 40px 0 0 100px;
     font-size: 5em;
     font-weight: 100;
     color: white;
@@ -647,10 +656,10 @@ div#bottom {
 
 .visitus p {
     display: block;
-    margin: 40px 0 0 400px;
+    margin: -20px auto 0 auto;
     font-size: 2em;
     font-weight: 100;
-    color: white;
+    color: black;
 }
 
 .address {
