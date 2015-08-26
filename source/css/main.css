@@ -301,6 +301,25 @@ section.aboutbanner {
     }
 }
 
+.logobr {
+    padding: 20px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    width: 700px;
+    height: 190px;
+    left: 50px;
+    top: 175px;
+    border-radius: 20px;
+}
+
+#indexlogo {
+    width: 600px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
 .top-margin {
     margin-top: 100px;
     text-align: center;
@@ -508,8 +527,13 @@ section.s1 h2 {
     font-size: 3em;
 }
 
+.secondp > .row > .col-md-7 >p > a {
+    text-decoration: none;
+}
 
-
+.secondp > .row > .col-md-7 >p > a:hover {
+    color: #F3C859;
+}
 
 .st-headline {
     color: black;
