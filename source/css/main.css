@@ -225,7 +225,7 @@ header {
     ul#desktop-nav li a {
         display: inline-block;
         text-decoration: none;
-        color: #00386F;
+        color: black;
         padding: 12px 10px 0 10px;
         font-size: 1.5em;
     }
