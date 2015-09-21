@@ -279,6 +279,12 @@ section.banner {
     min-height: 700px;
     background-image: linear-gradient(to right, rgba(0,0,0,0.6), transparent 80%);
 }
+@media(max-width: 750px) {
+    .gradient-overlay {
+        min-height: 100vh;
+        background-image: linear-gradient(to right, rgba(0,0,0,0.6), transparent 100%);
+    }
+}
 
 
 
@@ -455,6 +461,12 @@ section.s1 p {
     color: black;
 }
 
+@media(max-width: 750px) {
+    section.s1 p {
+        font-size: 1.2em;
+    }
+}
+
 section.s1 h2 {
     font-size: 3.8em;
     font-weight: 500;
@@ -473,7 +485,7 @@ section.s1 h3 {
 
 @media(max-width: 750px) {
     section.s1 h3 {
-        font-size: 2.5em;
+        font-size: 2.1em;
     }
 }
 
@@ -652,8 +664,13 @@ ul#horizontal-list li {
     display: inline-block;
     font-size: 1.5em;
     padding: 15px;
-    /*border: 1px dashed blue;*/
     color: rgba(243,200,89,1);
+}
+
+@media(max-width: 750px) {
+    ul#horizontal-list li {
+        font-size: 1.2em;
+    }
 }
 
 ul#horizontal-list li a {
@@ -673,7 +690,6 @@ ul#horizontal-list li a:hover {
 
     ul#horizontal-list li {
         display: block;
-        border: 1px dashed blue;
         text-align: center;
         max-width: 90%;
     }  
@@ -700,6 +716,11 @@ div#bottom {
     font-weight: 100;
     color: black;
 }
+@media(max-width: 750px) {
+    .visitus h1 {
+        font-size: 3em;
+    }
+}
 
 .visitus p {
     display: block;
@@ -707,6 +728,11 @@ div#bottom {
     font-size: 2em;
     font-weight: 100;
     color: black;
+}
+@media(max-width: 750px) {
+    .visitus p {
+        font-size: 1.5em;
+    }
 }
 
 .address {
@@ -718,6 +744,11 @@ div#bottom {
     letter-spacing: 1.5px
 }
 
+@media(max-width: 750px) {
+    .address {
+        font-size: 1em;
+    }
+}
 
 
 .address a {
