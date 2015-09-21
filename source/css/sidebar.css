@@ -67,8 +67,9 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Josefin Sans', Raleway, Helvetica, sans-serif, open sans;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    
     font-weight: 100;
+    letter-spacing: 0.02em;
 }
 
 .sidebar-nav li {
@@ -82,7 +83,7 @@
     color: white;
     padding: 7px 30px 7px 0;
     text-align: right;
-    font-family: 'Josefin Sans', Raleway, Helvetica, sans-serif, open sans;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
 }
 
